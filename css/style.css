@@ -18,10 +18,6 @@ nav {
     background-color: white;
 }
 /* _________________________________________________ */
-header.main-header {
-    height: 800px;
-    background-color: #b4d0e7;
-}
 
 
 /* NAV */
@@ -63,6 +59,48 @@ header.main-header {
 /* /NAV */
 
 
+/* HEADER */
+header.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    background-color: #b4d0e7;
+}
+/* _________________________________________________ */
+h1 {
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+/* _________________________________________________ */
+.main-page {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
+/* _________________________________________________ */
+.all-main-things {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: calc(100% / 2);
+}
+/* _________________________________________________ */
+.fa-arrow-down {
+    font-size: 50px;
+    margin-top: 80px;
+}
+/* _________________________________________________ */
+img[src*="jumbo.png"] {
+    max-width:100%;
+    max-height:100%;
+}
+
+
+/* /HEADER */
+
 /* MAIN */
 main.centered-container {
     margin-left: auto;
@@ -91,6 +129,9 @@ main.centered-container {
     text-decoration: none;
     color: white;
     font-size: 14px;
+}
+.common-button:hover {
+    background-color: #79acff;
 }
 /* _________________________________________________ */
 .light-gray-span {

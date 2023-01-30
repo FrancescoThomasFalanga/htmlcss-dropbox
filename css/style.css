@@ -24,9 +24,45 @@ header.main-header {
 }
 
 
-span {
-    display: block;
+/* NAV */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
 }
+/* _________________________________________________ */
+.nav-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+/* _________________________________________________ */
+.left-link {
+    display: flex;
+    gap: 40px;
+}
+/* _________________________________________________ */
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+/* _________________________________________________ */
+.link-info {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 80px;
+}
+.link-info:hover {
+    border-bottom: 2px solid black;
+}
+/* /NAV */
+
+
 /* MAIN */
 main.centered-container {
     margin-left: auto;
@@ -77,6 +113,10 @@ h2 {
 /* _________________________________________________ */
 h3 {
     padding-bottom: 15px;
+}
+/* _________________________________________________ */
+span {
+    display: block;
 }
 /* /BUTTONS AND COLORS */
 

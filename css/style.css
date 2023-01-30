@@ -146,3 +146,31 @@ h3 {
     font-size: 14px;
     padding-top: 50px;
 }
+
+
+
+.partner-dropbox {
+    display: flex;
+    gap: 50px;
+    padding: 150px 0;
+}
+
+img[src*="partner.png"] {
+    max-width:100%;
+    max-height:100%;
+}
+
+.partner-text {
+    padding-top: 50px;
+}
+
+#paragraph-padding {
+    padding-bottom: 50px;
+}
+
+.partner-button {
+    padding: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}

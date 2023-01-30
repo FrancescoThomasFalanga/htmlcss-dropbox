@@ -102,11 +102,11 @@ img[src*="jumbo.png"] {
 /* /HEADER */
 
 /* MAIN */
-main.centered-container {
+.centered-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 /* _________________________________________________ */
 .business-title {
@@ -333,3 +333,113 @@ img[src*="partner.png"] {
 }
 /* /CARD CONTAINER */
 
+.wow {
+    margin-top: 120px;
+    height: 500px;
+    width: 100%;
+    background-color: #0061ff;
+}
+
+
+
+/* FREE TRIAL */
+.background-free {
+    background-color: #b4d0e7;
+    padding: 80px 0;
+}
+/* _________________________________________________ */
+.centered-container-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+/* _________________________________________________ */
+.free-trial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* _________________________________________________ */
+.free-trial h2 {
+    padding: 0;
+    color: #5f0327;
+    width: calc(100% / 2);
+}
+/* _________________________________________________ */
+.free-trial-button {
+    padding: 8px 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+/* /FREE TRIAL */
+
+
+
+/* COMMON QUESTION */
+.common-question {
+    margin-bottom: 150px;
+}
+/* _________________________________________________ */
+.expand {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: nowrap row;
+    cursor: pointer;
+    padding: 30px 0;
+}
+/* _________________________________________________ */
+.expand-content {
+    display: none;
+    background-color: #f1f1f1;
+}
+.expand:hover .expand-content {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+/* _________________________________________________ */
+.horizzontal-row {
+    width: 100%;
+    margin: 0;
+}
+/* /COMMON QUESTION */
+
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+/* _________________________________________________ */
+.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    color: white;
+}
+/* _________________________________________________ */
+.more-info-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+/* _________________________________________________ */
+div.more-info a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
+div.more-info a:hover {
+    text-decoration: underline;
+}
+/* _________________________________________________ */
+.language-list {
+    padding-bottom: 50px;
+    color: lightgrey;
+    font-size: 14px;
+}
+/* FOOTER */

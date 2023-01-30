@@ -44,7 +44,6 @@ main.centered-container {
 }
 .business-plane {
     margin-top: 50px;
-    margin-bottom: 30px;
 }
 .business-space {
     margin-right: 50px;
@@ -56,6 +55,7 @@ main.centered-container {
     flex-direction: column;
     width: 100%;
     height: 1000px;
+    margin: 50px 0;
 
     /* test */
     background-color: green;
@@ -108,3 +108,41 @@ main.centered-container {
     background-color: red;
 }
 /* /test */
+
+
+.sales-office {
+    display: flex;
+    flex-direction: column;
+
+
+
+    background-color: green;
+
+}
+
+.team-space {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orange;
+    padding: 8px;
+}
+
+.office-support {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid orange;
+}
+
+h3 {
+    padding-bottom: 15px;
+}
+
+.strong-class {
+    font-size: 14px;
+}
+
+.some-padding-p {
+    font-size: 14px;
+    padding-top: 50px;
+}

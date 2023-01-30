@@ -333,13 +333,74 @@ img[src*="partner.png"] {
 }
 /* /CARD CONTAINER */
 
+
+/* ADV */
 .wow {
+    display: flex;
     margin-top: 120px;
-    height: 500px;
-    width: 100%;
-    background-color: #0061ff;
+    justify-content: center;
+    gap: 50px;
 }
 
+div.middle-row h2 {
+    padding: 0;
+    font-size: 42px;
+}
+
+.last-space {
+    padding: 30px 0;
+}
+
+
+.square-container-left {
+    display: flex;
+}
+
+.square-container-right {
+    display: flex;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+}
+
+img[src*=".svg"] {
+    width: 50%;
+    height: 20%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DIFFERENT COLORS */
+.green {
+    background-color: #a2d39b;
+}
+.violet {
+    background-color: #61082b;
+}
+.cyan {
+    background-color: #0093ce;
+}
+.red {
+    background-color: #ff1c1c;
+}
+.lightblue {
+    background-color: #b4d0e7;
+}
+.blue {
+    background-color: #0d2481;
+}
+.yellow {
+    background-color: #ffd830;
+}
+/* /DIFFERENT COLORS */
+
+/* /ADV */
 
 
 /* FREE TRIAL */

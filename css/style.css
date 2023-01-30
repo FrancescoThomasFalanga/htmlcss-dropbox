@@ -3,7 +3,108 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* _________________________________________________ */
 body {
     font-family: 'Open Sans', sans-serif;
+
+    /* test */
+    background-color: black;
 }
+/* _________________________________________________ */
+nav {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+
+    /* test */
+    background-color: white;
+}
+/* _________________________________________________ */
+header.main-header {
+    height: 800px;
+    background-color: #b4d0e7;
+}
+/* _________________________________________________ */
+main.centered-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    margin-top: 200px;
+
+
+    /* test */
+    height: 3000px;
+    background-color: white;
+}
+
+/* _________________________________________________ */
+.business-title {
+    font-size: 28px;
+}
+.business-plane {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.business-space {
+    margin-right: 50px;
+    display: inline-block;
+}
+/* _________________________________________________ */
+.plane-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+
+    /* test */
+    background-color: green;
+}
+
+.planes {
+    display: flex;
+    gap: 50px;
+}
+
+/* test */
+.professional-plane {
+    border: 5px solid black;
+    width: calc(100% / 3);
+    height: 1000px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.advanced-plane {
+    border: 5px solid black;
+    width: calc(100% / 3);
+    height: 1000px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.enterprise-plane {
+    border: 5px solid black;
+    width: calc(100% / 3);
+    height: 1000px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+/* /test */
+.uno {
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+.due {
+    height: calc(100% / 2);
+    width: 100%;
+    background-color: blueviolet;
+}
+.tre {
+    height: calc(100% / 2);
+
+    background-color: red;
+}
+/* /test */

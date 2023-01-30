@@ -177,19 +177,7 @@ span {
 }
 
 /* PROFESSIONAL PLANE + ADVANCED PLANE + ENTERPRISE PLANE*/
-.professional-plane {
-    border: 1px solid lightgrey;
-    width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
-}
-.advanced-plane {
-    border: 1px solid lightgrey;
-    width: calc(100% / 3);
-    display: flex;
-    flex-direction: column;
-}
-.enterprise-plane {
+.professional-plane, .advanced-plane, .enterprise-plane {
     border: 1px solid lightgrey;
     width: calc(100% / 3);
     display: flex;
@@ -378,6 +366,11 @@ img[src*=".svg"] {
     justify-content: center;
     align-items: center;
 }
+/* _________________________________________________ */
+.borders {
+    border: 10px solid #d1e9cd;
+}
+
 
 /* DIFFERENT COLORS */
 .green {
@@ -438,7 +431,6 @@ img[src*=".svg"] {
     font-size: 14px;
 }
 /* /FREE TRIAL */
-
 
 
 /* COMMON QUESTION */

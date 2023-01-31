@@ -355,6 +355,7 @@ div.scroll h2 {
 img[src*=".svg"] {
     width: 50%;
     height: 20%;
+    filter: invert(100%);
 }
 /* _________________________________________________ */
 .centered {

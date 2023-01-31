@@ -325,7 +325,7 @@ img[src*="partner.png"] {
 
 
 /* ADV */
-.wow {
+.design-section {
     display: flex;
     margin-top: 120px;
     justify-content: center;
@@ -341,19 +341,14 @@ div.middle-row h2 {
     padding: 30px 0;
 }
 /* _________________________________________________ */
-.square-container-left {
-    display: flex;
-    justify-content: center;
-}
-/* _________________________________________________ */
-.square-container-right {
+.square-container-left, .square-container-right {
     display: flex;
     justify-content: center;
 }
 /* _________________________________________________ */
 .square {
-    width: 250px;
-    height: 250px;
+    width: calc(50vw / 3);
+    min-height: 250px;
 }
 /* _________________________________________________ */
 img[src*=".svg"] {
@@ -370,7 +365,11 @@ img[src*=".svg"] {
 .borders {
     border: 10px solid #d1e9cd;
 }
-
+/* _________________________________________________ */
+.scroll {
+    max-height: 500px;
+    overflow-y: auto;
+}
 
 /* DIFFERENT COLORS */
 .green {
